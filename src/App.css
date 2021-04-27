@@ -1,10 +1,7 @@
 .App {
   text-align: center;
-  background-color: rgb(102, 96, 96);
-  color: rgb(6, 212, 248);
-  margin: 5px 10px;
+  color: rgb(3, 21, 180);
   padding: 10px;
-  border: 2px solid rgb(2, 2, 129);
 }
 .App h1 {
   margin-bottom: 20px;
@@ -15,8 +12,28 @@
 .App form {
   margin: 5px;
 }
+.App input {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(3, 21, 180);
+  background-color: rgb(168, 214, 245);
+}
+.App button {
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px solid rgb(3, 21, 180);
+  color: rgb(3, 21, 180);
+  font-weight: bold;
+  background-color: rgb(138, 202, 245);
+  margin: 5px;
+}
+.App button:hover {
+  color: rgb(138, 202, 245);
+  background-color: rgb(3, 21, 180);
+}
 .App footer {
-  color: rgb(5, 157, 184);
+  color: rgb(5, 112, 184);
   font-size: 14px;
   margin-top: 10px;
 }

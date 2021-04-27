@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 import './App.css';
 
 export default function App() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
   const apiUrlEndpoint = "https://api.dictionaryapi.dev/api/v2/entries/en_US/";
   
   function handleApiResponse (response){
-    console.log(response.data);
+    setResults(response.data);
   }
   function search (event){
     event.preventDefault();
@@ -25,6 +27,7 @@ export default function App() {
         <input type="search" autoFocus={true} placeholder="Search..." onChange={handleKeywordChange} />
         <button type="submit">Go</button>
       </form>
+      <Results info={results}/>
       <footer>
         Coded by Sara Paranuk
       </footer>
