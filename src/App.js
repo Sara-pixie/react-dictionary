@@ -29,7 +29,8 @@ export default function App() {
       </form>
       <Results info={results}/>
       <footer>
-        Coded by Sara Paranuk
+        Coded by Sara Paranuk and open-sourced on 
+        <a href="https://github.com/Sara-pixie/react-dictionary" target="_blank"> GitHub</a>
       </footer>
     </div>
   );

@@ -37,3 +37,10 @@
   font-size: 14px;
   margin-top: 10px;
 }
+.App a {
+  text-decoration: none;
+  color: rgba(3, 21, 180, 0.7);
+}
+.App a:hover {
+  text-decoration: underline;
+}
