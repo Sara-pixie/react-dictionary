@@ -30,7 +30,7 @@ export default function App() {
       <Results info={results}/>
       <footer>
         Coded by Sara Paranuk and open-sourced on 
-        <a href="https://github.com/Sara-pixie/react-dictionary" target="_blank"> GitHub</a>
+        <a href="https://github.com/Sara-pixie/react-dictionary" target="_blank" rel="noreferrer"> GitHub</a>
       </footer>
     </div>
   );
