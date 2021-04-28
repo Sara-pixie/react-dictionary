@@ -6,7 +6,7 @@ export default function Phonetic (props){
     return(
         <div className="Phonetic">
             <p>{props.phonetic.text}</p>
-            <ReactAudioPlayer src={props.phonetic.audio} crossOrigin="" controls={true} Access-Control-Allow-Origin="*"/>
+            <ReactAudioPlayer src={props.phonetic.audio} controls={true} />
         </div>
     );
 }
