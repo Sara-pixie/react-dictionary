@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App defaultKeyword="Hello"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
