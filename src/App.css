@@ -1,32 +1,52 @@
 .App {
+  font-family: 'Original Surfer', cursive;
   text-align: center;
   color: rgb(3, 21, 180);
   padding: 10px;
+  overflow: hidden;
 }
 .App h1 {
   margin-bottom: 20px;
+  font-size: 40px;
+}
+.App .fa-laugh-beam{
+  color: yellow;
+  background-color: orange;
+  border-radius: 50px;
+}
+.App .fa-laugh-beam.left{
+  transform: rotate(-45deg);
+}
+.App .fa-laugh-beam.right{
+  transform: rotate(45deg);
 }
 .App p {
-  font-size: 20px;
+  font-size: 30px;
 }
 .App form {
   margin: 5px;
 }
 .App input {
-  padding: 5px 10px;
+  font-size: 20px;
+  color: rgb(3, 21, 180);
+  padding: 7px 15px;
   margin: 5px;
   border-radius: 10px;
   border: 1px solid rgb(3, 21, 180);
   background-color: rgb(168, 214, 245);
+  box-shadow: 1px 1px 1px rgba(9, 19, 44, 0.5);
 }
 .App button {
-  padding: 5px;
+  font-size: 20px;
+  padding: 7px;
   border-radius: 50px;
   border: 1px solid rgb(3, 21, 180);
   color: rgb(3, 21, 180);
   font-weight: bold;
   background-color: rgb(138, 202, 245);
   margin: 5px;
+  box-shadow: 1px 1px 1px rgba(9, 19, 44, 0.5);
+  transition: all 150ms ease-in-out;
 }
 .App button:hover {
   color: rgb(138, 202, 245);
@@ -34,7 +54,7 @@
 }
 .App footer {
   color: rgb(5, 112, 184);
-  font-size: 14px;
+  font-size: 20px;
   margin-top: 10px;
 }
 .App a {

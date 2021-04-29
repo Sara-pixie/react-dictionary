@@ -4,13 +4,22 @@
   box-shadow: 3px 3px 3px rgba(9, 19, 44, 0.5);
   padding: 10px 20px;
   margin: 10px;
+  background-color: rgb(168, 214, 245);
 }
 .Meaning h3 {
-  margin-left: 10px;
   font-size: 25px;
 }
+.Meaning .fa-lightbulb{
+  color: orange;
+  background-color: yellow;
+  padding: 5px 10px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px orange;
+}
 .Meaning .example {
-  padding: 10px 30px;
+  margin: 10px;
+  text-align: center;
+  opacity: 0.7;
 }
 .Meaning .example::first-letter {
   text-transform: capitalize;

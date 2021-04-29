@@ -30,7 +30,7 @@ export default function App(props) {
   if (loaded){
     return (
       <div className="App">
-        <h1>Dictionary</h1>
+        <h1><i className="fas fa-laugh-beam left"></i> Dictionary <i className="fas fa-laugh-beam right"></i></h1>
         <p>What do you want to look up?</p>
         <form onSubmit={handleSubmit}>
           <input type="search" autoFocus={true} placeholder="Search..." onChange={handleKeywordChange} />
