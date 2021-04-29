@@ -4,7 +4,7 @@ import "./Meaning.css";
 
 export default function Meaning(props){
     return (
-        <div className="Meaning">
+        <section className="Meaning">
             <h3><i className="far fa-lightbulb"></i> {props.meaning.partOfSpeech}</h3>
             {props.meaning.definitions.map(function (definition, index){
                 if (definition.example){
@@ -28,6 +28,6 @@ export default function Meaning(props){
                     );
                 }
             })}
-        </div>
+        </section>
     );
 }

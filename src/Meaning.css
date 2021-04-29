@@ -1,11 +1,3 @@
-.Meaning {
-  border: 1px solid rgb(63, 114, 252);
-  border-radius: 20px;
-  box-shadow: 3px 3px 3px rgba(9, 19, 44, 0.5);
-  padding: 20px 30px;
-  margin: 10px;
-  background-color: rgb(168, 214, 245);
-}
 .Meaning h3 {
   font-size: 25px;
 }
