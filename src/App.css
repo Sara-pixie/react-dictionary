@@ -4,6 +4,15 @@
   color: rgb(3, 21, 180);
   padding: 10px;
   overflow: hidden;
+  max-width: 950px;
+  margin: 0 auto;
+}
+section {
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgba(9, 19, 44, 0.5);
+  padding: 20px 30px;
+  margin: 10px;
+  background-color: rgb(168, 214, 245);
 }
 .App h1 {
   margin-bottom: 20px;
