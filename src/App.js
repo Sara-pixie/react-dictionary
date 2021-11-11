@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
-import './App.css';
+import './styles/App.css';
 
 export default function App(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
