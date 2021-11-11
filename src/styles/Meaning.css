@@ -1,12 +1,11 @@
 .Meaning h3 {
   font-size: 25px;
 }
-.Meaning .fa-lightbulb{
-  color: orange;
-  background-color: yellow;
+.Meaning .fa-lightbulb {
+  color: var(--main-colour);
+  background-color: transparent;
   padding: 5px 10px;
-  border-radius: 50px;
-  box-shadow: 1px 1px 3px orange;
+  text-shadow: 0 0 20px rgb(248, 4, 248), 0 0 5px rgb(185, 7, 235);
 }
 .Meaning .example {
   margin: 10px;

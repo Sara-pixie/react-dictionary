@@ -1,33 +1,23 @@
 .App {
-  font-family: 'Original Surfer', cursive;
+  font-family: "Original Surfer", cursive;
   text-align: center;
-  color: rgb(3, 21, 180);
+  color: var(--main-colour);
   padding: 10px;
   overflow: hidden;
   max-width: 950px;
   margin: 0 auto;
+  text-shadow: var(--text-glow);
 }
 section {
   border-radius: 20px;
-  box-shadow: 3px 3px 3px rgba(9, 19, 44, 0.5);
+  box-shadow: 3px 3px 3px var(--shadow-colour);
   padding: 20px 30px;
   margin: 10px;
-  background-color: rgb(168, 214, 245);
+  background-color: var(--background-colour);
 }
 .App h1 {
   margin-bottom: 20px;
   font-size: 40px;
-}
-.App .fa-laugh-beam{
-  color: yellow;
-  background-color: orange;
-  border-radius: 50px;
-}
-.App .fa-laugh-beam.left{
-  transform: rotate(-45deg);
-}
-.App .fa-laugh-beam.right{
-  transform: rotate(45deg);
 }
 .App p {
   font-size: 30px;
@@ -37,38 +27,38 @@ section {
 }
 .App input {
   font-size: 20px;
-  color: rgb(3, 21, 180);
+  color: var(--main-colour);
   padding: 7px 15px;
   margin: 5px;
   border-radius: 10px;
-  border: 1px solid rgb(3, 21, 180);
-  background-color: rgb(168, 214, 245);
-  box-shadow: 1px 1px 1px rgba(9, 19, 44, 0.5);
+  border: 1px solid var(--main-colour);
+  background-color: var(--background-colour);
+  box-shadow: 1px 1px 1px var(--shadow-colour);
 }
 .App button {
   font-size: 20px;
   padding: 7px;
   border-radius: 50px;
-  border: 1px solid rgb(3, 21, 180);
-  color: rgb(3, 21, 180);
+  border: 1px solid var(--main-colour);
+  color: var(--main-colour);
   font-weight: bold;
-  background-color: rgb(138, 202, 245);
+  background-color: var(--background-colour);
   margin: 5px;
-  box-shadow: 1px 1px 1px rgba(9, 19, 44, 0.5);
+  box-shadow: 1px 1px 1px var(--shadow-colour);
   transition: all 150ms ease-in-out;
 }
 .App button:hover {
-  color: rgb(138, 202, 245);
-  background-color: rgb(3, 21, 180);
+  color: var(--background-colour);
+  background-color: var(--main-colour);
 }
 .App footer {
-  color: rgb(5, 112, 184);
+  color: var(--main-colour);
   font-size: 20px;
   margin-top: 10px;
 }
 .App a {
   text-decoration: none;
-  color: rgba(3, 21, 180, 0.7);
+  color: var(--main-colour);
 }
 .App a:hover {
   text-decoration: underline;

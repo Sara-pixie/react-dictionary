@@ -10,7 +10,7 @@
   align-items: center;
 }
 .Photos img {
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px rgba(9, 19, 44, 0.5);
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px var(--shadow-colour);
 }
